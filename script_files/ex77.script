@@ -1,0 +1,1 @@
+read_truth -xf ex77.truth; strash;resub;rewrite;balance;resub;rewrite;resub;refactor;balance;refactor;rewrite;balance;rewrite;balance;rewrite;resub;refactor;resub;balance;refactor;write ex77.aig; print_stats

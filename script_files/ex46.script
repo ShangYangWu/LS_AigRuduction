@@ -1,0 +1,1 @@
+read_truth -xf ex46.truth; strash;resub;refactor;rewrite;resub;rewrite;balance;rewrite;refactor;resub;balance;resub;refactor;resub;refactor;resub;refactor;balance;resub;balance;write ex46.aig; print_stats

@@ -7,12 +7,11 @@ using ABC command to reduce the number of AIG gate </BR>
 # HOW TO USE </BR>
 step1. install ABC from https://github.com/berkeley-abc/abc.git </BR>
 step2. cd abc </BR>
-step3. unzip M11215084.zip </BR>
-step4. make (to recompile, use "make clean") </BR>
-step5. ./pa2.out ex00.truth (for .truth file, please put down the correct path of the file) </BR>
-step6. the program will gernate ex00.script under /M11215084 </BR>
-step7. mv ex00.script .. (move ex00.script to /abc) </BR>
-step8. cd .. (go to /abc) </BR>
+step3. make (to recompile, use "make clean") </BR>
+step4. ./pa2.out ex00.truth (for .truth file, please put down the correct path of the file) </BR>
+step5. the program will gernate ex00.script under /src </BR>
+step6. mv ex00.script .. (move ex00.script to /abc) </BR>
+step7. cd .. (go to /abc) </BR>
 step8. ./abc -c "ex00.script" </BR>
 step9. ABC will gernerate ex00.aig under /abc </BR>
 step10. ./abc </BR>
